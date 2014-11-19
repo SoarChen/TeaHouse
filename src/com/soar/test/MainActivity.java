@@ -22,11 +22,7 @@ public class MainActivity extends Activity {
 			button.setOnClickListener(new View.OnClickListener() {
 				
 				@Override
-				public void onClick(View v) {
-					Intent intent = new Intent();
-					intent.setComponent(new ComponentName("com.htc.allplay", "com.htc.allplay.AllPlayActivity"));
-					intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-					startActivity(intent);
+				public void onClick(View v) {					
 				}
 			});
 		}
